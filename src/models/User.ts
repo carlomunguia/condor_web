@@ -33,6 +33,7 @@ export class User {
 
     handlers.forEach(callback => {
       callback();
+      console.log('secrets are hidden here');
     });
   }
 }
